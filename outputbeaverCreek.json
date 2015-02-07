@@ -1,0 +1,647 @@
+[
+    {
+        "trailName": "BEAR PAW",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "PIECE O' CAKE",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "ROUGHLOCK-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "STIRRUP",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "ASPEN ALLEY",
+        "trailStatus": "closed",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "CRESTA",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "CROSS BOW",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "GOLDEN BEAR",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "LITTLE BRAVE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "POW WOW",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "ROUGHLOCK-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "SPRINGTOOTH",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "WAPITI-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "FLINT",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "TOMAHAWK",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "WAPITI-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "INTERTWINE",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "LEAV THE BEAV",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "MAVERICK",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "SAWBUCK",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "SECOND CHANCE",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "CABIN FEVER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "COYOTE GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "GRUBSTAKE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "GUNDERS",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "RENEGADE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "VIA VITO",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "WOLVERINE RAVINE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "BEGINNER AREA CHAIR 2",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "BOOTH GARDENS",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "BRIDLE",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "BUCKAROO BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "CENTENNIAL-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "CINCH-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "CINCH-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "DALLY",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "HAYMEADOW",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "HIGHLANDS SKIWAY",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "MYSTIC ISLAND",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "PINEY",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "POWELL",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "RED BUFFALO",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "SHEEPHORN-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "SOLITUDE",
+        "trailStatus": "closed",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "1876",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "ASSAY",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "BARREL STAVE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "BEAR TRAP",
+        "trailStatus": "closed",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "CENTENNIAL-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "CORKSCREW",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "EPICMIX RACE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "GOLD DUST",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "GOLD RUSH",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "HARRIER-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "JACK RABBIT ALLEY",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "LATIGO-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "LATIGO-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "MYSTIC MAZE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "RED TAIL",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "ADDY'S",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BOOTLEG",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BUCK BOARD",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "CENTENNIAL-SPRUCE FACE",
+        "trailStatus": "closed",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "CENTENNIAL-WILLEY'S FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "DOUBLE DIAMOND",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "FOOLS GOLD",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "FOR GET ABOUT IT",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "HARRIER-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "HEADS UP",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "HELMUT'S",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "MOONSHINE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "SHEEPHORN-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "WESTFALL ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "GOSHAWK-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "STICKLINE-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "STICKLINE-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "PARK 101",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "RODEO",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "ZOOM ROOM",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "MCCOY PARK CROSS COUNTRY ADVENTURE AREA",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BEAVER CREEK MOUNTAIN EXPRESSWAY",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "PRIMROSE",
+        "trailStatus": "open",
+        "trailDifficulty": "easiest"
+    },
+    {
+        "trailName": "BITTEROOT",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "OVERSHOT",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "PRESIDENT FORD'S-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "STACKER-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "PRESIDENT FORD'S",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "STACKER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "STACKER-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "TRESHER GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "GOLDEN EAGLE-LOWER",
+        "trailStatus": "closed",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "KESTREL",
+        "trailStatus": "closed",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "GOLDEN EAGLE",
+        "trailStatus": "closed",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "GOSHAWK-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "PEREGRINE",
+        "trailStatus": "closed",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BORDERS LOOP",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "GEE",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "HAW",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "HOME RUN",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "SETTLERS WAY",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "CAMP ROBBER ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "PTARMIGAN",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "RAVEN RIDGE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "RAVEN RIDGE-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "RUFFED GROUSE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "SCREECH OWL",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BALD EAGLE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BLACK BEAR ",
+        "trailStatus": "closed",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "FALCON PARK",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "OSPREY",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "ROYAL ELK GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "BLUE BELL",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "LARKSPUR BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "LARKSPUR-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "PAINTBRUSH",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "LOCO",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "LUPINE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "SHOOTING STAR",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "THREE TREE GULLY",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "YARROW",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "C-PRIME",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "STONE CREEK MEADOWS",
+        "trailStatus": "open",
+        "trailDifficulty": "moreDifficult"
+    },
+    {
+        "trailName": "CATARACT",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "KELLER GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "RIPSAW",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "SPIDER",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "WEB",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "LOWER STONE CREEK",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    },
+    {
+        "trailName": "UPPER STONE CREEK",
+        "trailStatus": "open",
+        "trailDifficulty": "mostDifficult"
+    }
+]

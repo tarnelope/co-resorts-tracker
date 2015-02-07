@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  each run in runs
+    ul#runs
+      li= run.trailName
+      li= run.trailStatus
