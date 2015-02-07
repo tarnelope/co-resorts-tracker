@@ -13,9 +13,15 @@
     "jade": "~1.9.1",
     "mongodb": "*",
     "serve-favicon": "~2.2.0",
-	"monk": "*",
-	"cheerio": "*",
-	"require": "*",
-	"request": "*"
+    "monk": "*",
+    "cheerio": "*",
+    "require": "*",
+    "request": "*",
+    "grunt": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-mongoimport": "^0.1.5"
   }
 }
