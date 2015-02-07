@@ -11,7 +11,7 @@ var urls = [{
 }];
 
 module.exports = function(grunt) {
-	grunt.registerTask('scrape_keystone', 'KEYSTONE', function() {
+	grunt.registerTask('scrape', 'KEYSTONE', function() {
 
 			var done = this.async();
 
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 								if (err) {
 									throw err;
 								}
-								console.log("Scraped!");
+								grunt.log.writeln("Scraped!");
 							});
 						} else {
 							done();
