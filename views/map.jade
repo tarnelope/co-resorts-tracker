@@ -1,0 +1,26 @@
+h1.
+	Keystone Trails
+	
+html.
+	<head>
+		<link rel="stylesheet" href="http://openlayers.org/en/v3.2.0/css/ol.css" type="text/css" />
+		<link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+		<link rel="stylesheet" href="/stylesheets/style.css">
+		<link rel="stylesheet" href="/stylesheets/bootstrap-theme.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<title>Map</title>
+	</head>
+	
+	<body>
+		<div id="map" class="map"></div>
+		
+		<script src="http://openlayers.org/en/v3.2.0/build/ol.js" type="text/javascript"></script>
+		<script src="http://www.opensnowmap.org/js/OpenLayers-2.13.1/OpenLayers.js" type="text/javascript"></script>
+		<script src="javascripts/draw-map.js" type="text/javascript"></script> 
+	</body>
+ul
+	each trail in keystone
+		li
+			h4= trail.trailName 
+		li
+			p= trail.trailStatus

@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var keystone = require('./routes/keystone');
+var map = require('./routes/map');
 
 // New Code
 var mongo = require('mongodb');
@@ -32,10 +34,12 @@ app.use(function(req,res,next){
     req.db = db;
     next();
 });
-
+   
 //Defines what routes to use
 app.use('/', routes);
 app.use('/users', users);
+app.use('/keystone', keystone);
+app.use('/map', map);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

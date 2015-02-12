@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-mongoimport');
 	grunt.loadNpmTasks('grunt-shell');
 	
-	grunt.registerTask('loadScrapedData', ['scrape', 'shell:add_keystone_data', 'shell:add_bc_data']);
+	grunt.registerTask('loadScrapedData', ['scrape', 'shell']);
 	// Default task.
 	grunt.registerTask('default', 'jshint');
 

@@ -16,9 +16,10 @@ module.exports = function(grunt) {
 			var done = this.async();
 
 			urls.forEach(function(resortObj) {
-
-					var fileName = './data/' + resortObj.resort + '.json';
-					var allTrails = [];
+					
+				var resortName = resortObj.resort;
+				var fileName = './public/javascripts/' + resortName + '.json';
+				var allTrails = [];
 
 					request(resortObj.url, function(error, response, html) {
 
@@ -42,11 +43,11 @@ module.exports = function(grunt) {
 								if (trailName !== "TRAIL" && trailName !== "TYPE") {
 									trail.trailName = trailName;
 									if (data.hasClass('easiest')) {
-										trailDifficulty = "easiest";
+										trailDifficulty = "easy";
 									} else if (data.hasClass('moreDifficult')) {
-										trailDifficulty = "moreDifficult";
+										trailDifficulty = "intermediate";
 									} else {
-										trailDifficulty = "mostDifficult";
+										trailDifficulty = "advanced";
 									}
 									trail.trailDifficulty = trailDifficulty;
 
@@ -58,10 +59,9 @@ module.exports = function(grunt) {
 									trail.trailStatus = trailStatus;
 
 									allTrails.push(trail);
-
 								}
 							});
-
+							
 							fs.writeFile(fileName, JSON.stringify(allTrails, null, 4), function(err) {
 								if (err) {
 									throw err;
