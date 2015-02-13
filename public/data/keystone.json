@@ -1,0 +1,492 @@
+[
+    {
+        "trailName": "BEAR TREE",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "DISCOVERY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "ENDEAVOR-TOP",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "INA'S WAY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "JAYBIRD",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "LAST CHANCE",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "MODEST GIRL",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SCHOOL YARD",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SCHOOLMARM LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SCHOOLMARM UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SCHOOLMASTER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SCOUT",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SILVERSPOON",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "TWO SLED ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "BACHELOR",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BALLHOOTER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BOBTAIL",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "DERCUMS DASH",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "EPICMIX RACING",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "FLYING DUTCHMAN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "FRENCHMAN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "GASSY THOMPSON",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "HAYWOOD",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "HOODOO",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "JACKWACKER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "JACQUES ST.JAMES",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MIDLAND",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MISSOURI",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MOZART",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MOZART FLATS",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "ORFINT BOY",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "PAYMASTER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "RIVER RUN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SANTA FE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SILVERMASTER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SPRING DIPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SWANDYKE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WAY TO A51",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WHIPSAW",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WILD IRISHMAN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "A51",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BEGER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BERGMAN BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "DIAMOND BACK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "ERIKSON BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GO DEVIL - LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GO DEVIL - MID",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GO DEVIL - UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "IDA BELLE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "INDEPENDENCE BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "JACK FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LAST HOOT",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LOWER PACKSADDLE BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RICHTER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "THE SLOT",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RIPPEROOS ROAD",
+        "trailStatus": "closed",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "MINESHAFT",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "THE WINDOWS",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "EASY STREET",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "I-70",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "PARK LANE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "THE ALLY",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MAIN STREET",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "QUARTER PIPE",
+        "trailStatus": "closed",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "ANTICIPATION",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "LAST ALAMO",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "PROSPECTOR",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SPILLWAY",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "AMBUSH",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BLACK HAWK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BULLET",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BULLET GLADES",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CAT DANCER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CAT SOUTH",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GERONIMO",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GLADES",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "POWDERCAP",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "STARFIRE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "FOX TROT",
+        "trailStatus": "closed",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WAYBACK L.L.",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BIG HORN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "ELK RUN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "ESCAPE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "LODGEPOLE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "OH BOB",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "PORCUPINE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "THE WILLOWS",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BADGER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BLACK FOREST",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BUSHWACKER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "COYOTE CAPER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "NORTH BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PIKA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SOUTH BOWL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "THE GRIZZ",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "TIMBERWOLF",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WILDFIRE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WOLVERINE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    }
+]

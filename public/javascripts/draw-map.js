@@ -1,8 +1,9 @@
+
 var openRuns = {};
-$.getJSON('javascripts/keystone.json').done(function(data) {
+$.getJSON('data/keystone.json').done(function(data) {
 	data.forEach(function(trail) {
 		if (trail.trailStatus === "open") {
-			openRuns[trail.trailName] = "open";
+			openRuns[trail.trailName] = trail.trailDifficulty;
 		}
 	})
 })
@@ -10,7 +11,7 @@ $.getJSON('javascripts/keystone.json').done(function(data) {
 //keystone vector source
 var vectorSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
-	url: 'resortkeys/keystone.geojson'
+	url: 'data/keystoneKey.geojson'
 });
 
 //styles
@@ -33,25 +34,31 @@ var styles = {
 			color: 'rgba(255,0,0,0.2)'
 		})
 	})],
-	'Open': [new ol.style.Style({
+	'Easy': [new ol.style.Style({
 		stroke: new ol.style.Stroke({
 			color: 'green',
 			width: 2
 		})
 	})],
-	'Closed': [new ol.style.Style({
+	'Intermediate': [new ol.style.Style({
+		stroke: new ol.style.Stroke({
+			color: 'blue',
+			width: 2
+		})
+	})],
+	'Advanced': [new ol.style.Style({
 		stroke: new ol.style.Stroke({
 			color: 'black',
 			width: 2
 		})
+	})],
+	'Closed': [new ol.style.Style({
+		stroke: new ol.style.Stroke({
+			color: 'rgba(0, 0, 0, 0)',
+			width: 2
+		})
 	})]
 };
-
-var toType = function(obj) {
-	return ({}).toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase()
-}
-
-var count = 0;
 
 var styleFunction = function(feature, resolution) {
 	var type = feature.getGeometry().getType();
@@ -60,12 +67,22 @@ var styleFunction = function(feature, resolution) {
 		if (trailName !== undefined && trailName !== null) trailName = trailName.toUpperCase();
 		var diff = feature.get('piste:difficulty');
 		if (openRuns[trailName] === undefined || openRuns[trailName] === null) { //Run not open
-			console.log(count+++" trailname: " + trailName + ", type: " + toType(trailName) + ", diff: " + diff);
 			return styles['Closed'];
-		} else if (openRuns[trailName] === "open") {
-			return styles['Open'];
 		} else {
-			return styles['Neutral'];
+			switch(openRuns[trailName]) {
+				case "easy":
+					return styles['Easy'];
+					break;
+				case "intermediate":
+					return styles['Intermediate'];
+					break;
+				case "advanced":
+					return styles['Advanced'];
+					break;
+				default:
+					return styles['Neutral'];
+					break;
+			}
 		}
 	} else {
 		return styles['Neutral'];
