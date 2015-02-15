@@ -1,6 +1,28 @@
 
+
+(function() {
+	console.log("local data is " + resort);
+
+	var keyName = '../data/keystoneKey.geojson';
+	var dailyJSON = '../data/keystone.json';
+	var mapCenter = [-105.9137, 39.5658];
+	
+	switch(resort) {
+		case "Keystone":
+			keyName = '../data/keystoneKey.geojson';
+			dailyJSON = '../data/keystone.json';
+			mapCenter = [-105.9137, 39.5658];
+			break;
+		/*BELOW DATA IS NOT UP TO DATE YET*/
+		case "Beaver Creek":
+			keyName = '../data/keystoneKey.geojson';
+			dailyJSON = '../data/beaverCreek.json';
+			break;
+	}
+	
+	
 var openRuns = {};
-$.getJSON('data/keystone.json').done(function(data) {
+$.getJSON(dailyJSON).done(function(data) {
 	data.forEach(function(trail) {
 		if (trail.trailStatus === "open") {
 			openRuns[trail.trailName] = trail.trailDifficulty;
@@ -11,7 +33,7 @@ $.getJSON('data/keystone.json').done(function(data) {
 //keystone vector source
 var vectorSource = new ol.source.GeoJSON({
 	projection: 'EPSG:3857',
-	url: 'data/keystoneKey.geojson'
+	url: keyName
 });
 
 //styles
@@ -54,14 +76,13 @@ var styles = {
 	})],
 	'Closed': [new ol.style.Style({
 		stroke: new ol.style.Stroke({
-			color: 'rgba(0, 0, 0, 0)',
+			color: 'red',
 			width: 2
 		})
 	})]
 };
 
 var styleFunction = function(feature, resolution) {
-	var type = feature.getGeometry().getType();
 	if (feature.getProperties().aerialway != "chair_lift") {
 		var trailName = feature.getProperties().name;
 		if (trailName !== undefined && trailName !== null) trailName = trailName.toUpperCase();
@@ -106,7 +127,8 @@ var map = new ol.Map({
 		vectorLayer
 	],
 	view: new ol.View({
-		center: ol.proj.transform([-105.9137, 39.5658], 'EPSG:4326', 'EPSG:3857'),
+		center: ol.proj.transform(mapCenter, 'EPSG:4326', 'EPSG:3857'),
 		zoom: 13
 	})
 });
+})();

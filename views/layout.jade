@@ -2,12 +2,23 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
     link(rel='stylesheet', href='http://openlayers.org/en/v3.2.0/css/ol.css')
     script(type='text/javascript', src='http://openlayers.org/en/v3.2.0/build/ol.js')
     script(type='text/javascript', src='/javascripts/main.js')
     script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(type='text/javascript', src='http://www.opensnowmap.org/js/OpenLayers-2.13.1/OpenLayers.js')  
+  
   body
-    block content
+    #container
+        #top_bar
+            #top_logo
+            #top_nav
+                .nav_item Keystone
+                .nav_item Breck
+                .nav_item Vail
+                a(href='bc').nav_item BC
+        #upper_content
+            h1= title
+        #map.map  	
+block content

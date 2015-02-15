@@ -1,12 +1,44 @@
 body {
-  padding: 2em;
+  padding: 0 4em 0 4em;
+  background: rgba(0, 0, 0, 0.075);
+  font-family: arial;
+}
+
+#container {
+	width: 100%;
+	background: white;
+}
+
+#top_bar {
+	height: 4em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#top_logo {
+	
+}
+
+#top_nav {
+	width: 20em;
+	float: right;
+	margin-top: 2.225em;
+}
+.nav_item {
+	float: left;
+	display: table-row;
+	padding: 2px 1em 2px 1em;
+	
 }
 
 a {
   color: #00B7FF;
 }
-
+#upper_content {
+	padding: 1em 0 1em 0;
+	text-align: center;
+}
 .map {
 	height: 400px;
-	width: 600px;
+	width: 100%;
+	
 }
