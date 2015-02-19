@@ -30,14 +30,11 @@ module.exports = function(grunt) {
 			}
 		},
 	    shell: {
-			remove_keystone_data: {
-				command: 'mongo trailstatus --eval "db.keystoneStatus.remove({})"'	
-			},
            add_keystone_data: {
-			   command: 'mongoimport --db trailstatus --collection keystonestatus  --type json --file public/data/keystone.json --jsonArray'
+			   command: 'mongoimport --db trailstatus --collection keystonestatus --drop --type json --file public/data/keystone.json --jsonArray'
            },
            add_bc_data: {
-			   command: 'mongoimport --db trailstatus --collection bcstatus  --type json --file public/data/beaverCreek.json --jsonArray'
+			   command: 'mongoimport --db trailstatus --collection bcstatus --drop --type json --file public/data/beaverCreek.json --jsonArray'
            }
        }
 	});
