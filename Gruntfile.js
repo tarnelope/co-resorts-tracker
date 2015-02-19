@@ -1,5 +1,9 @@
 module.exports = function(grunt) {
-
+	
+	// load all grunt tasks matching the ['grunt-*', '@*/grunt-*'] patterns 
+    require('load-grunt-tasks')(grunt);
+	var execSync = require('exec-sync');
+	
 	grunt.initConfig({
 		jshint: {
 			src: ['routes/*.js', 'Gruntfile.js', 'tasks/*.js'],
@@ -27,29 +31,18 @@ module.exports = function(grunt) {
 			}
 		},
 	    shell: {
-           options: {
-               stderr: true,
-			   stout: true,
-			   failOnError: true
-           },
+			remove_keystone_data: {
+				command: 'mongo trailstatus --eval "db.keystoneStatus.remove({})"'	
+			},
            add_keystone_data: {
-			   command: 'mongoimport --db trailstatus --collection keystonestatus  --type json --file data/keystone.json --jsonArray'
+			   command: 'mongoimport --db trailstatus --collection keystonestatus  --type json --file public/data/keystone.json --jsonArray'
            },
            add_bc_data: {
-			   command: 'mongoimport --db trailstatus --collection bcstatus  --type json --file data/beaverCreek.json --jsonArray'
+			   command: 'mongoimport --db trailstatus --collection bcstatus  --type json --file public/data/beaverCreek.json --jsonArray'
            }
        }
-		   
 	});
-
-	// Load JSHint task
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-mongoimport');
-	grunt.loadNpmTasks('grunt-shell');
-	
-	grunt.registerTask('loadScrapedData', ['scrape', 'shell']);
-	// Default task.
-	grunt.registerTask('default', 'jshint');
+	grunt.registerTask('default', ['scrape', 'shell']);
 
 	grunt.loadTasks('tasks');
 };

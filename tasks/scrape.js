@@ -10,69 +10,77 @@ var urls = [{
 	'url': 'http://www.beavercreek.com/the-mountain/terrain-status.aspx#/TerrainStatus'
 }];
 
+var urlLength = urls.length;
+var count = 1;
+
 module.exports = function(grunt) {
 	grunt.registerTask('scrape', 'KEYSTONE', function() {
 
-			var done = this.async();
+		var done = this.async();
+		
+		urls.forEach(function(resortObj) {
+			
+			var resortName = resortObj.resort;
+			var fileName = './public/data/' + resortName + '.json';
+			var allTrails = [];
 
-			urls.forEach(function(resortObj) {
-					
-				var resortName = resortObj.resort;
-				var fileName = './public/data/' + resortName + '.json';
-				var allTrails = [];
+			request(resortObj.url, function(error, response, html) {
 
-					request(resortObj.url, function(error, response, html) {
+				if (!error) {
 
-						if (!error) {
+					var $ = cheerio.load(html);
+					var trailName, trailStatus, trailDifficulty;
 
-							var $ = cheerio.load(html);
-							var trailName, trailStatus, trailDifficulty;
+					$('.firstCol').map(function() {
 
-							$('.firstCol').map(function() {
+						var trail = {
+							trailName: "",
+							trailStatus: "",
+							trailDifficulty: ""
+						};
 
-								var trail = {
-									trailName: "",
-									trailStatus: "",
-									trailDifficulty: ""
-								};
+						var data = $(this);
 
-								var data = $(this);
+						trailName = data.next().text().toUpperCase();
 
-								trailName = data.next().text().toUpperCase();
+						if (trailName !== "TRAIL" && trailName !== "TYPE") {
+							trail.trailName = trailName;
+							if (data.hasClass('easiest')) {
+								trailDifficulty = "easy";
+							} else if (data.hasClass('moreDifficult')) {
+								trailDifficulty = "intermediate";
+							} else {
+								trailDifficulty = "advanced";
+							}
+							trail.trailDifficulty = trailDifficulty;
 
-								if (trailName !== "TRAIL" && trailName !== "TYPE") {
-									trail.trailName = trailName;
-									if (data.hasClass('easiest')) {
-										trailDifficulty = "easy";
-									} else if (data.hasClass('moreDifficult')) {
-										trailDifficulty = "intermediate";
-									} else {
-										trailDifficulty = "advanced";
-									}
-									trail.trailDifficulty = trailDifficulty;
+							if (data.next().next().hasClass('yesStatus')) {
+								trailStatus = "open";
+							} else {
+								trailStatus = "closed";
+							}
+							trail.trailStatus = trailStatus;
 
-									if (data.next().next().hasClass('yesStatus')) {
-										trailStatus = "open";
-									} else {
-										trailStatus = "closed";
-									}
-									trail.trailStatus = trailStatus;
-
-									allTrails.push(trail);
-								}
-							});
-							
-							fs.writeFile(fileName, JSON.stringify(allTrails, null, 4), function(err) {
-								if (err) {
-									throw err;
-								}
-								grunt.log.writeln("Scraped!");
-							});
-						} else {
-							done();
+							allTrails.push(trail);
 						}
 					});
-				});
-				
+
+					fs.writeFile(fileName, JSON.stringify(allTrails, null, 4), function(err) {
+						if (err) {
+							throw err;
+						}
+
+						grunt.log.writeln("Scraped!");
+						if (count === urlLength) {
+							done();
+						} else {
+							count++;
+						}
+					});
+				} else {
+					done();	
+				}
 			});
-	};
+		});
+	});
+};

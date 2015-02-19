@@ -225,21 +225,6 @@
         "trailDifficulty": "advanced"
     },
     {
-        "trailName": "GO DEVIL - LOWER",
-        "trailStatus": "open",
-        "trailDifficulty": "advanced"
-    },
-    {
-        "trailName": "GO DEVIL - MID",
-        "trailStatus": "open",
-        "trailDifficulty": "advanced"
-    },
-    {
-        "trailName": "GO DEVIL - UPPER",
-        "trailStatus": "open",
-        "trailDifficulty": "advanced"
-    },
-    {
         "trailName": "IDA BELLE",
         "trailStatus": "open",
         "trailDifficulty": "advanced"
@@ -260,16 +245,6 @@
         "trailDifficulty": "advanced"
     },
     {
-        "trailName": "LOWER PACKSADDLE BOWL",
-        "trailStatus": "open",
-        "trailDifficulty": "advanced"
-    },
-    {
-        "trailName": "RICHTER",
-        "trailStatus": "open",
-        "trailDifficulty": "advanced"
-    },
-    {
         "trailName": "THE SLOT",
         "trailStatus": "open",
         "trailDifficulty": "advanced"
@@ -280,7 +255,32 @@
         "trailDifficulty": "easy"
     },
     {
+        "trailName": "GO DEVIL - LOWER",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GO DEVIL - MID",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GO DEVIL - UPPER",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LOWER PACKSADDLE BOWL",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
         "trailName": "MINESHAFT",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RICHTER",
         "trailStatus": "closed",
         "trailDifficulty": "advanced"
     },
