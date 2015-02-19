@@ -2,7 +2,6 @@ module.exports = function(grunt) {
 	
 	// load all grunt tasks matching the ['grunt-*', '@*/grunt-*'] patterns 
     require('load-grunt-tasks')(grunt);
-	var execSync = require('exec-sync');
 	
 	grunt.initConfig({
 		jshint: {
