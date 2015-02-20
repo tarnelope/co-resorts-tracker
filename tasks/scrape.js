@@ -1,16 +1,27 @@
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
+var async = require('async');
 
-var urls = [{
-	'resort': 'keystone',
-	'url': 'http://www.keystoneresort.com/ski-and-snowboard/terrain-status.aspx#/TerrainStatus'
-}, {
-	'resort': 'beaverCreek',
-	'url': 'http://www.beavercreek.com/the-mountain/terrain-status.aspx#/TerrainStatus'
-}];
+var urls = [
+	{
+		'resort': 'keystone',
+		'url': 'http://www.keystoneresort.com/ski-and-snowboard/terrain-status.aspx#/TerrainStatus'
+	}, {
+		'resort': 'beaverCreek',
+		'url': 'http://www.beavercreek.com/the-mountain/terrain-status.aspx#/TerrainStatus'
+	},
+	{
+		'resort': 'breck',
+		'url': 'http://www.breckenridge.com/mountain/terrain-status.aspx'
+	},
+	{
+		'resort': 'vail',
+		'url': 'http://www.vail.com/mountain/current-conditions/whats-open-today.aspx'
+	}
+];
 
-var urlLength = urls.length;
+var urlsLength = urls.length;
 var count = 1;
 
 module.exports = function(grunt) {
@@ -71,7 +82,7 @@ module.exports = function(grunt) {
 						}
 
 						grunt.log.writeln("Scraped!");
-						if (count === urlLength) {
+						if (count === urlsLength) {
 							done();
 						} else {
 							count++;

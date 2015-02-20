@@ -35,9 +35,16 @@ module.exports = function(grunt) {
            },
            add_bc_data: {
 			   command: 'mongoimport --db trailstatus --collection bcstatus --drop --type json --file public/data/beaverCreek.json --jsonArray'
+           },
+           add_breck_data: {
+			   command: 'mongoimport --db trailstatus --collection breckstatus --drop --type json --file public/data/breck.json --jsonArray'
+           },
+           add_vail_data: {
+			   command: 'mongoimport --db trailstatus --collection vailstatus --drop --type json --file public/data/vail.json --jsonArray'
            }
        }
 	});
+	
 	grunt.registerTask('default', ['scrape', 'shell']);
 
 	grunt.loadTasks('tasks');

@@ -11,11 +11,20 @@
 			dailyJSON = '../data/keystone.json';
 			mapCenter = [-105.9137, 39.5658];
 			break;
-			/*BELOW DATA IS NOT UP TO DATE YET*/
 		case "Beaver Creek":
 			keyName = '../data/bcKey.geojson';
 			dailyJSON = '../data/beaverCreek.json';
 			mapCenter = [-106.5179, 39.5826];
+			break;
+		case "Vail":
+			keyName = '../data/vailKey.geojson';
+			dailyJSON = '../data/vail.json';
+			mapCenter = [-106.3454, 39.6069];
+			break;
+		case "Breckenridge":
+			keyName = '../data/breckKey.geojson';
+			dailyJSON = '../data/breck.json';
+			mapCenter = [-106.0676, 39.4688];
 			break;
 	}
 

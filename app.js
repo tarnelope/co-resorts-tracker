@@ -6,8 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
-var keystone = require('./routes/keystone');
 var map = require('./routes/map');
 
 // New Code
@@ -38,8 +36,6 @@ app.use(function(req,res,next){
    
 //Defines what routes to use
 app.use('/', routes);
-app.use('/users', users);
-app.use('/keystone', keystone);
 app.use('/map', map);
 
 app.locals.appname = 'Colorado Vail Resorts Tracker';

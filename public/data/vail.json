@@ -1,0 +1,847 @@
+[
+    {
+        "trailName": "COLD FEET",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "GITALONG ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "OVEREASY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SWINGSVILLE",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "THE MEADOWS",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "WINDISCH WAY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "AVANTI",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BEAR TREE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BEN'S FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "CAPPUCCINO",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "CHRISTMAS",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "EPICMIX RACE COURSE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "EXPRESSO",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "HUNKY DORY",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MID-VAIL EXPRESS",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "RAMSHORN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SPRUCE FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WHISTLE PIG",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "38",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CHALLENGE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "COOKSHACK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GIANT STEPS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "HEAD FIRST",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "KANGAROO CORNICE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LINDSEY'S",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LOOK MA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PEPI'S FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "POWERLINE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "POWERLINE GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RIVA (LOWER)",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RIVA (UPPER)",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RIVA GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "S. LOOK MA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "THE SKIPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WINDOWS ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "ZOT",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SLEEPYTIME ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "APRES VOUS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CAMPBELLS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CHICKEN YARD",
+        "trailStatus": "closed",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "COW'S FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "FOREVER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "HEADWALL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "MILT'S FACE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "MORNINGSIDE RIDGE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "NEVER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "OS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "OVER YONDER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PTARMIGAN RIDGE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RICKY'S RIDGE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SELDOM",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "STRAIGHT SHOT",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SUN DOWN CATWALK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SUN UP CATWALK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "THE SLOT",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WIDGE'S RIDGE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WINDOWS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WOW",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "YONDER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "YONDER GULLY",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BIG ROCK PARK",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "CHINA SPUR",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "CLOUD 9",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "GRAND REVIEW",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "IN THE WUIDES",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "KELLY'S TOLL ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "MONTANE GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "RESOLUTION",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "THE STAR",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "CHAMPAGNE GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "ENCORE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "HEAVY METAL",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "HORNSILVER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "IRON MASK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LITTLE OLLIE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LOVERS LEAP",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SKREE FIELD",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "STEEP AND DEEP",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "THE DIVIDE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CHOPSTIX",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "POPPYFIELDS E.",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "POPPYFIELDS W.",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SILK ROAD",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BOLSHOI BALLROOM",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "EMPEROR'S CHOICE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GENGHIS KHAN",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GORKY PARK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "INNER MONGOLIA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "JADE GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "MORNING THUNDER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "ORIENT EXPRESS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "OUTER MONGOLIA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RASPUTINS",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RED SQUARE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "RED ZINGER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SHANGRI-LA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SWEET N SOUR",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BOOMER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "BRISK WALK",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "FLAP JACK-LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "FLAP JACK-UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "GOPHER HILL",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "GRAND JUNCTION CATWALK",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "NORTHFACE CATWALK - UPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "RIVA CATWALK",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "SOURDOUGH",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "TIMBERLINE CATWALK",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "TIN PANTS",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "CHOCKER CUT OFF",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "NORTHFACE CATWALK - LOWER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "NORTHWOODS",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "RNGR RACOON",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "RUDER'S RUN",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SNAG PARK",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WHIPPERSNAPPER",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "WHISKEY JACK",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BLUE OX",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "FIRST STEP",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GANDY DANCER",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "KLICKITY KLACK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "LOG CHUTE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "NORTH RIM",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "NORTHSTAR",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PRIMA",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "SOUTH RIM",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "TOURIST TRAP",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "HIGHLINE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PRIMA CORNICE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PRONTO",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "ROGER'S RUN",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GOLDEN PEAK HALF PIPE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "GOLDEN PEAK TERRAIN PARK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "CHAIR 15",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "COYOTE CROSSING",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "CUBS WAY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "EAGLE'S NEST RIDGE",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "GAME TRAIL",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "LION'S WAY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "LOST BOY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "MINNIE HAHA",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "PIKA",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "PRACTICE PKWY",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "THE PRESERVE",
+        "trailStatus": "open",
+        "trailDifficulty": "easy"
+    },
+    {
+        "trailName": "BACCARAT",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BORN FREE (LWR)",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BORN FREE (UPR)",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BWANA (LOWER)",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BWANA (UPPER)",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "CHEETAH",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "COLUMBINE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "DEALER'S CHOICE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "LEDGES",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "LODGEPOLE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "PICKEROON",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "PRIDE",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SAFARI",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SHOWBOAT",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SIMBA (LOWER)",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "SIMBA (UPPER)",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "THE WOODS",
+        "trailStatus": "open",
+        "trailDifficulty": "intermediate"
+    },
+    {
+        "trailName": "BERRIES",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "DEUCES WILD",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "FARO",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "MINNIE'S",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "OUZO",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "OUZO GLADE",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "WILDCARD",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "BWANA PARK ",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    },
+    {
+        "trailName": "PRIDE PARK",
+        "trailStatus": "open",
+        "trailDifficulty": "advanced"
+    }
+]

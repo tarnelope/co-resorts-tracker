@@ -41,6 +41,28 @@ router.get('/bc', function(req, res) {
     });
 });
 
+router.get('/vail', function(req, res) {
+    var db = req.db;
+    var collection = db.get('vailstatus');
+    collection.find({},{},function(e,docs){
+        res.render('map', {
+            trails : docs,
+			title: "Vail"
+        });
+    });
+});
+
+router.get('/breck', function(req, res) {
+    var db = req.db;
+    var collection = db.get('breckstatus');
+    collection.find({},{},function(e,docs){
+        res.render('map', {
+            trails : docs,
+			title: "Breckenridge"
+        });
+    });
+});
+
 
 
 
