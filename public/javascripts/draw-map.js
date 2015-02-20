@@ -13,8 +13,9 @@
 			break;
 			/*BELOW DATA IS NOT UP TO DATE YET*/
 		case "Beaver Creek":
-			keyName = '../data/keystoneKey.geojson';
+			keyName = '../data/bcKey.geojson';
 			dailyJSON = '../data/beaverCreek.json';
+			mapCenter = [-106.5179, 39.5826];
 			break;
 	}
 
