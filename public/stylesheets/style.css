@@ -7,6 +7,7 @@ body {
 #container {
 	width: 100%;
 	background: white;
+	padding-bottom: 1em;
 }
 
 #top_bar {
@@ -85,4 +86,17 @@ a {
 	column-count:2;
 	-moz-column-count:2;
 	-webkit-column-count:2;
+	margin: 1em;
+}
+.trail-row {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1em;
+	line-height: 1px;
+}
+.trail-name {
+	float:left;
+	padding-left: 1em;
+}
+.trail-status {
+	float: right;
 }
