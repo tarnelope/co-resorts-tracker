@@ -1,11 +1,12 @@
 extends layout
 
 block content	
-	div#table-container
-		each trail in trails
-			div.trail-row
-				span.trail-name=trail.trailName 
-				span.trail-status=trail.trailStatus
+	div#table-container.table-responsive
+		table.table.table-bordered
+			each trail in trails
+				tr.trail-row
+					td.trail-name=trail.trailName 
+					td.trail-status=trail.trailStatus
 	
 	script(type='text/javascript').		
 		var resort =!{JSON.stringify(title)};
