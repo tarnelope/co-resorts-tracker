@@ -91,9 +91,21 @@ a {
 	margin: 1em;
 	border-collapse: collapse;
 }
+.table {
+	width: 100%;
+}
 tr.trail-row {
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	
+	
+}
+td {
 	padding: 1em;
+}
+.open-trail {
+	background-color: rgba(109, 255, 129, 0.07);
+}
+.closed-trail {
+	background-color: rgba(255, 38, 38, 0.05);
 }
 .trail-name {
 	float:left;

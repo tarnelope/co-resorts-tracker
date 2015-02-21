@@ -4,10 +4,15 @@ block content
 	div#table-container.table-responsive
 		table.table.table-bordered
 			each trail in trails
-				tr.trail-row
-					td.trail-name=trail.trailName 
-					td.trail-status=trail.trailStatus
-	
+				if trail.trailStatus == "open"
+					tr.trail-row.open-trail
+						td.trail-name=trail.trailName 
+						td.trail-status=trail.trailStatus
+				else
+					tr.trail-row.closed-trail
+						td.trail-name=trail.trailName 
+						td.trail-status=trail.trailStatus
+
 	script(type='text/javascript').		
 		var resort =!{JSON.stringify(title)};
 		

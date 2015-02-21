@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2015-02-20T16:17:02Z",
+  "timestamp": "2015-02-21T04:36:02Z",
   "features": [
     {
       "type": "Feature",
@@ -707,7 +707,7 @@
       "id": "way/37353753",
       "properties": {
         "@id": "way/37353753",
-        "name": "Doublejack",
+        "name": "Double jack",
         "piste:difficulty": "advanced",
         "piste:type": "downhill",
         "source": "Yahoo"
@@ -1120,7 +1120,7 @@
       "id": "way/127129009",
       "properties": {
         "@id": "way/127129009",
-        "name": "Powerline",
+        "name": "Power line",
         "piste:difficulty": "easy",
         "piste:type": "downhill"
       },
@@ -1274,8 +1274,8 @@
             39.472254
           ],
           [
-            -106.0768728,
-            39.4723593
+            -106.0768983,
+            39.4724623
           ]
         ]
       }
@@ -1285,7 +1285,7 @@
       "id": "way/127129013",
       "properties": {
         "@id": "way/127129013",
-        "name": "Callies Alley",
+        "name": "Callie's Alley",
         "piste:difficulty": "advanced",
         "piste:type": "downhill"
       },
@@ -1529,44 +1529,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/127129287",
-      "properties": {
-        "@id": "way/127129287",
-        "piste:difficulty": "advanced",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0817461,
-            39.4748573
-          ],
-          [
-            -106.0814095,
-            39.4748711
-          ],
-          [
-            -106.0806048,
-            39.4748048
-          ],
-          [
-            -106.0797983,
-            39.4748988
-          ],
-          [
-            -106.079518,
-            39.4748062
-          ],
-          [
-            -106.0791135,
-            39.4748462
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/127129288",
       "properties": {
         "@id": "way/127129288",
@@ -1656,7 +1618,7 @@
       "id": "way/127129290",
       "properties": {
         "@id": "way/127129290",
-        "name": "Rounders",
+        "name": "Rounder's",
         "piste:difficulty": "advanced",
         "piste:type": "downhill"
       },
@@ -1775,8 +1737,8 @@
             39.4782665
           ],
           [
-            -106.0734701,
-            39.4792436
+            -106.0684981,
+            39.4808653
           ]
         ]
       }
@@ -1897,7 +1859,7 @@
       "id": "way/127129647",
       "properties": {
         "@id": "way/127129647",
-        "name": "Dukes Run",
+        "name": "Dukes",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -1953,8 +1915,8 @@
             39.4792353
           ],
           [
-            -106.0734701,
-            39.4792436
+            -106.0738246,
+            39.4792765
           ]
         ]
       }
@@ -2027,7 +1989,7 @@
       "id": "way/127129650",
       "properties": {
         "@id": "way/127129650",
-        "name": "Dukes Run",
+        "name": "Dukes",
         "piste:difficulty": "advanced",
         "piste:type": "downhill"
       },
@@ -2106,7 +2068,7 @@
       "id": "way/127131494",
       "properties": {
         "@id": "way/127131494",
-        "name": "Debbies Alley",
+        "name": "Debbie's Alley",
         "piste:difficulty": "advanced",
         "piste:reviewed": "no",
         "piste:type": "downhill"
@@ -2138,7 +2100,7 @@
       "id": "way/127131496",
       "properties": {
         "@id": "way/127131496",
-        "name": "Forget-Me-Not",
+        "name": "Forget Me Not",
         "piste:difficulty": "advanced",
         "piste:reviewed": "no",
         "piste:type": "downhill"
@@ -2183,41 +2145,10 @@
     },
     {
       "type": "Feature",
-      "id": "way/127131497",
-      "properties": {
-        "@id": "way/127131497",
-        "piste:difficulty": "advanced",
-        "piste:reviewed": "no",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.094445,
-            39.4736036
-          ],
-          [
-            -106.0949171,
-            39.4742744
-          ],
-          [
-            -106.0958397,
-            39.475086
-          ],
-          [
-            -106.0976315,
-            39.4763282
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/127131499",
       "properties": {
         "@id": "way/127131499",
-        "name": "Boundary Chutes",
+        "name": "boundry Chutes",
         "piste:difficulty": "advanced",
         "piste:reviewed": "no",
         "piste:type": "downhill"
@@ -2297,7 +2228,7 @@
       "id": "way/127132083",
       "properties": {
         "@id": "way/127132083",
-        "name": "Lower Forget-Me-Not",
+        "name": "Lower Forget Me Not",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -3155,7 +3086,7 @@
       "id": "way/128932117",
       "properties": {
         "@id": "way/128932117",
-        "name": "Lower Psychopath",
+        "name": "L. Psychopath",
         "piste:difficulty": "advanced",
         "piste:type": "downhill"
       },
@@ -3202,7 +3133,7 @@
       "id": "way/128932118",
       "properties": {
         "@id": "way/128932118",
-        "name": "Frostys Freeway",
+        "name": "Frosty's",
         "piste:difficulty": "advanced",
         "piste:type": "downhill"
       },
@@ -3438,7 +3369,7 @@
       "id": "way/128932723",
       "properties": {
         "@id": "way/128932723",
-        "name": "Four O'Clock",
+        "name": "Upper 4 o'clock",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -3474,8 +3405,8 @@
             39.4720562
           ],
           [
-            -106.0768728,
-            39.4723593
+            -106.0761131,
+            39.472708
           ]
         ]
       }
@@ -4321,7 +4252,7 @@
       "id": "way/128941969",
       "properties": {
         "@id": "way/128941969",
-        "name": "Four O'Clock",
+        "name": "Middle 4 O'Clock",
         "piste:difficulty": "easy",
         "piste:type": "downhill"
       },
@@ -5865,7 +5796,7 @@
       "id": "way/128952694",
       "properties": {
         "@id": "way/128952694",
-        "name": "Flapjack",
+        "name": "Flap jack",
         "piste:difficulty": "advanced",
         "piste:type": "downhill"
       },
@@ -6430,6 +6361,7 @@
       "id": "way/129449261",
       "properties": {
         "@id": "way/129449261",
+        "name": "Lost Horizon",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -6517,39 +6449,10 @@
     },
     {
       "type": "Feature",
-      "id": "way/129449262",
-      "properties": {
-        "@id": "way/129449262",
-        "piste:difficulty": "intermediate",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0766365,
-            39.4767085
-          ],
-          [
-            -106.0762194,
-            39.4771024
-          ],
-          [
-            -106.0759163,
-            39.4773886
-          ],
-          [
-            -106.0753369,
-            39.4776126
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/129449263",
       "properties": {
         "@id": "way/129449263",
+        "name": "Springmeier",
         "piste:difficulty": "easy",
         "piste:type": "downhill"
       },
@@ -6577,78 +6480,10 @@
     },
     {
       "type": "Feature",
-      "id": "way/129449264",
-      "properties": {
-        "@id": "way/129449264",
-        "piste:difficulty": "intermediate",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0734701,
-            39.4792436
-          ],
-          [
-            -106.0717074,
-            39.4798376
-          ],
-          [
-            -106.0703386,
-            39.4803151
-          ],
-          [
-            -106.0693099,
-            39.4806243
-          ],
-          [
-            -106.0679274,
-            39.4809749
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/129449265",
-      "properties": {
-        "@id": "way/129449265",
-        "FIXME": "this has a name like \"Old #9 lift line\". It doesn't show up on official maps, but it has a sign at the beginning like any other piste",
-        "piste:difficulty": "advanced",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0822467,
-            39.4715904
-          ],
-          [
-            -106.0807515,
-            39.4727143
-          ],
-          [
-            -106.0802908,
-            39.473098
-          ],
-          [
-            -106.0800221,
-            39.4733072
-          ],
-          [
-            -106.0770371,
-            39.4756301
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/129449266",
       "properties": {
         "@id": "way/129449266",
+        "name": "Swinger",
         "piste:difficulty": "easy",
         "piste:type": "downhill"
       },
@@ -6980,7 +6815,7 @@
       "id": "way/129586770",
       "properties": {
         "@id": "way/129586770",
-        "name": "Lower Sawmill",
+        "name": "Sawmill",
         "piste:difficulty": "easy",
         "piste:type": "downhill"
       },
@@ -7228,60 +7063,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/129586775",
-      "properties": {
-        "@id": "way/129586775",
-        "piste:difficulty": "easy",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0533874,
-            39.4726241
-          ],
-          [
-            -106.0529217,
-            39.4729501
-          ],
-          [
-            -106.0524227,
-            39.4731202
-          ],
-          [
-            -106.0518859,
-            39.4731816
-          ],
-          [
-            -106.0515593,
-            39.4731812
-          ],
-          [
-            -106.0512966,
-            39.4731583
-          ],
-          [
-            -106.0509402,
-            39.4730866
-          ],
-          [
-            -106.0506662,
-            39.4730423
-          ],
-          [
-            -106.0503339,
-            39.4730699
-          ],
-          [
-            -106.0501009,
-            39.4732016
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/129586776",
       "properties": {
         "@id": "way/129586776",
@@ -7364,70 +7145,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/129586779",
-      "properties": {
-        "@id": "way/129586779",
-        "piste:difficulty": "intermediate",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0768728,
-            39.4723593
-          ],
-          [
-            -106.0761891,
-            39.4727806
-          ],
-          [
-            -106.0758393,
-            39.4729023
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/129586782",
-      "properties": {
-        "@id": "way/129586782",
-        "piste:difficulty": "intermediate",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0654558,
-            39.4637561
-          ],
-          [
-            -106.0640397,
-            39.4630875
-          ],
-          [
-            -106.0634545,
-            39.4628348
-          ],
-          [
-            -106.0625931,
-            39.4626586
-          ],
-          [
-            -106.0615753,
-            39.462344
-          ],
-          [
-            -106.0607592,
-            39.4621668
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/129586783",
       "properties": {
         "@id": "way/129586783",
@@ -7469,6 +7186,7 @@
       "id": "way/129586784",
       "properties": {
         "@id": "way/129586784",
+        "name": "Silverthorne",
         "piste:difficulty": "easy",
         "piste:type": "downhill"
       },
@@ -7544,31 +7262,10 @@
     },
     {
       "type": "Feature",
-      "id": "way/129594196",
-      "properties": {
-        "@id": "way/129594196",
-        "piste:difficulty": "easy",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.056111,
-            39.4719306
-          ],
-          [
-            -106.0554443,
-            39.4710674
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/129594197",
       "properties": {
         "@id": "way/129594197",
+        "name": "Little Burn",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -7632,36 +7329,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/129594198",
-      "properties": {
-        "@id": "way/129594198",
-        "piste:difficulty": "easy",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0554242,
-            39.4691313
-          ],
-          [
-            -106.0551238,
-            39.4693841
-          ],
-          [
-            -106.0548717,
-            39.4695042
-          ],
-          [
-            -106.0546517,
-            39.469504
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/129594199",
       "properties": {
         "@id": "way/129594199",
@@ -7715,108 +7382,6 @@
           [
             -106.0652703,
             39.4674123
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/129594200",
-      "properties": {
-        "@id": "way/129594200",
-        "piste:difficulty": "easy",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0600011,
-            39.4674276
-          ],
-          [
-            -106.0588092,
-            39.4679071
-          ],
-          [
-            -106.0583724,
-            39.4680866
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/129594201",
-      "properties": {
-        "@id": "way/129594201",
-        "piste:difficulty": "easy",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0542535,
-            39.4689192
-          ],
-          [
-            -106.0542387,
-            39.4690942
-          ],
-          [
-            -106.0543567,
-            39.4693385
-          ],
-          [
-            -106.0546517,
-            39.469504
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/186260494",
-      "properties": {
-        "@id": "way/186260494",
-        "piste:difficulty": "easy",
-        "piste:type": "downhill"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -106.0722846,
-            39.4725809
-          ],
-          [
-            -106.0722792,
-            39.472494
-          ],
-          [
-            -106.0721451,
-            39.4723822
-          ],
-          [
-            -106.0720003,
-            39.4723532
-          ],
-          [
-            -106.0713405,
-            39.4723201
-          ],
-          [
-            -106.0706324,
-            39.4723118
-          ],
-          [
-            -106.0699725,
-            39.4722621
-          ],
-          [
-            -106.0697258,
-            39.4722538
           ]
         ]
       }
@@ -8081,7 +7646,7 @@
       "id": "way/268512448",
       "properties": {
         "@id": "way/268512448",
-        "name": "Deja Vu",
+        "name": "DÉJÀ VU",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -8108,7 +7673,7 @@
       "id": "way/268512449",
       "properties": {
         "@id": "way/268512449",
-        "name": "Barton Breezeway",
+        "name": "Barton's Breezeway",
         "piste:difficulty": "intermediate",
         "piste:type": "downhill"
       },
@@ -8291,6 +7856,283 @@
           [
             -106.1050238,
             39.4992377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393801",
+      "properties": {
+        "@id": "way/329393801",
+        "name": "Tom's Mom",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0821994,
+            39.459362
+          ],
+          [
+            -106.0813626,
+            39.4598258
+          ],
+          [
+            -106.081148,
+            39.4613168
+          ],
+          [
+            -106.081663,
+            39.4623771
+          ],
+          [
+            -106.0819848,
+            39.4632385
+          ],
+          [
+            -106.0820063,
+            39.4640668
+          ],
+          [
+            -106.0817703,
+            39.4651436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393802",
+      "properties": {
+        "@id": "way/329393802",
+        "name": "Toms Baby",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0809763,
+            39.4613997
+          ],
+          [
+            -106.0809334,
+            39.4617476
+          ],
+          [
+            -106.0811265,
+            39.4633711
+          ],
+          [
+            -106.0813411,
+            39.4635202
+          ],
+          [
+            -106.0812338,
+            39.4641662
+          ],
+          [
+            -106.0815986,
+            39.465243
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393803",
+      "properties": {
+        "@id": "way/329393803",
+        "name": "Inferno",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0817418,
+            39.4596933
+          ],
+          [
+            -106.0811587,
+            39.460226
+          ],
+          [
+            -106.0798749,
+            39.4613665
+          ],
+          [
+            -106.079596,
+            39.4617641
+          ],
+          [
+            -106.0794887,
+            39.4625096
+          ],
+          [
+            -106.0794887,
+            39.4632054
+          ],
+          [
+            -106.0798964,
+            39.4641497
+          ],
+          [
+            -106.0798173,
+            39.4644243
+          ],
+          [
+            -106.0796389,
+            39.4650442
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393804",
+      "properties": {
+        "@id": "way/329393804",
+        "name": "Devils Crotch",
+        "piste:difficulty": "expert",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0781583,
+            39.4628906
+          ],
+          [
+            -106.0781798,
+            39.4636858
+          ],
+          [
+            -106.0791239,
+            39.4644975
+          ],
+          [
+            -106.0792741,
+            39.464862
+          ],
+          [
+            -106.0796389,
+            39.4650442
+          ],
+          [
+            -106.0792956,
+            39.4665351
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393954",
+      "properties": {
+        "@id": "way/329393954",
+        "name": "Hades",
+        "piste:difficulty": "expert",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0785536,
+            39.462338
+          ],
+          [
+            -106.0785536,
+            39.4631244
+          ],
+          [
+            -106.0787446,
+            39.4636978
+          ],
+          [
+            -106.0791053,
+            39.4640582
+          ],
+          [
+            -106.0796358,
+            39.4647136
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393955",
+      "properties": {
+        "@id": "way/329393955",
+        "name": "Purgatory",
+        "piste:difficulty": "advanced",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0792114,
+            39.4619776
+          ],
+          [
+            -106.0790416,
+            39.4623708
+          ],
+          [
+            -106.0790629,
+            39.4632063
+          ],
+          [
+            -106.0792326,
+            39.4635504
+          ],
+          [
+            -106.0798173,
+            39.4644243
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329393956",
+      "properties": {
+        "@id": "way/329393956",
+        "name": "Mine Shaft",
+        "piste:difficulty": "expert",
+        "piste:type": "downhill"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -106.0780655,
+            39.463321
+          ],
+          [
+            -106.0770681,
+            39.4652214
+          ],
+          [
+            -106.077344,
+            39.4658604
+          ],
+          [
+            -106.0778957,
+            39.4666631
+          ],
+          [
+            -106.0779827,
+            39.4677786
           ]
         ]
       }
