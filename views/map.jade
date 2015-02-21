@@ -8,7 +8,7 @@ block content
 					tr.trail-row.open-trail
 						td.trail-name=trail.trailName 
 						td.trail-status=trail.trailStatus
-				else
+				else if trail.trailStatus == "closed"
 					tr.trail-row.closed-trail
 						td.trail-name=trail.trailName 
 						td.trail-status=trail.trailStatus

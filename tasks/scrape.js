@@ -2,6 +2,7 @@ var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 var async = require('async');
+var date = require('date-utils');
 
 var urls = [
 	{
@@ -25,7 +26,7 @@ var urlsLength = urls.length;
 var count = 1;
 
 module.exports = function(grunt) {
-	grunt.registerTask('scrape', 'KEYSTONE', function() {
+	grunt.registerTask('scrape', function() {
 
 		var done = this.async();
 		
@@ -33,7 +34,14 @@ module.exports = function(grunt) {
 			
 			var resortName = resortObj.resort;
 			var fileName = './public/data/' + resortName + '.json';
-			var allTrails = [];
+
+			var now = new Date();
+			var allTrails = [
+				{
+					"date": getFormattedDate(now),
+					"time": getFormattedTime(now)
+				}
+			];
 
 			request(resortObj.url, function(error, response, html) {
 
@@ -95,3 +103,28 @@ module.exports = function(grunt) {
 		});
 	});
 };
+
+function getFormattedDate(currentDate) {
+	var dd = currentDate.getDate();
+	var monthSingleDigit = currentDate.getMonth() + 1,
+	    mm = monthSingleDigit < 10 ? '0' + monthSingleDigit : monthSingleDigit;
+	var yy = currentDate.getFullYear().toString().substr(2);
+
+	var formattedDate = mm + '/' + dd + '/' + yy;
+	return formattedDate;
+}
+
+function getFormattedTime(currentDate) {
+	var hour = currentDate.getHours(),
+		h = hour < 10 ? '0' + hour : hour;
+	var min = currentDate.getMinutes(),
+		m = min < 10 ? '0' + min : min;
+	var sec = currentDate.getMinutes(),
+		s = sec < 10 ? '0' + sec : sec;
+	
+	var time = hour + ":"  
+	               + min + ":" 
+	               + sec;
+	
+	return time;
+}
