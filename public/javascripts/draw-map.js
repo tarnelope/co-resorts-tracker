@@ -29,14 +29,17 @@
 	}
 
 
+	//Parse data to be easier to style
 	var openRuns = {};
 	$.getJSON(dailyJSON).done(function(data) {
 		data.forEach(function(trail) {
-			if (trail.trailStatus === "open") {
-				openRuns[trail.trailName] = trail.trailDifficulty;
-			}
-		})
-	})
+			var trailData = {
+				"difficulty": trail.trailDifficulty,
+				"status": trail.trailStatus
+			};
+			openRuns[trail.trailName] = trailData;
+		});
+	});
 
 	//keystone vector source
 	var vectorSource = new ol.source.GeoJSON({
@@ -49,9 +52,6 @@
 			stroke: new ol.style.Stroke({
 				color: 'rgba(0, 0, 0, 0.2)',
 				width: 2
-			}),
-			fill: new ol.style.Fill({
-				color: 'rgba(255,0,0,0.2)'
 			})
 		})],
 		'Easy': [new ol.style.Style({
@@ -77,30 +77,42 @@
 				color: 'red',
 				width: 3
 			})
+		})],
+		'Unknown': [new ol.style.Style({
+			stroke: new ol.style.Stroke({
+				color: 'purple',
+				width: 3
+			})
 		})]
 	};
-
+	
 	var styleFunction = function(feature, resolution) {
 		if (feature.getProperties().aerialway != "chair_lift") {
 			var trailName = feature.getProperties().name;
 			if (trailName !== undefined && trailName !== null) trailName = trailName.toUpperCase();
+			
 			var diff = feature.get('piste:difficulty');
 			if (openRuns[trailName] === undefined || openRuns[trailName] === null) { //Run not open
-				return styles['Closed'];
+				return styles['Unknown'];
 			} else {
-				switch (openRuns[trailName]) {
-					case "easy":
-						return styles['Easy'];
-						break;
-					case "intermediate":
-						return styles['Intermediate'];
-						break;
-					case "advanced":
-						return styles['Advanced'];
-						break;
-					default:
-						return styles['Neutral'];
-						break;
+				var trailObj = openRuns[trailName];
+				if (trailObj.status = "open") {
+					switch (trailObj.difficulty) {
+						case "easy":
+							return styles['Easy'];
+							break;
+						case "intermediate":
+							return styles['Intermediate'];
+							break;
+						case "advanced":
+							return styles['Advanced'];
+							break;
+						default:
+							return styles['Neutral'];
+							break;
+					}
+				} else {
+					return styles['Closed'];
 				}
 			}
 		} else {
@@ -169,7 +181,9 @@
 			return feature;
 		});
 		if (feature !== undefined && feature !== null) {
-			content.innerHTML = '<p>'+ feature.get('name').toUpperCase() +'</p><p>'+feature.get('piste:difficulty').substr(0,1).toUpperCase()+ feature.get('piste:difficulty').substr(1)+'</p>';
+			var trailName = feature.get('name').toUpperCase();
+			var trailStatus = openRuns[trailName] !== undefined ? openRuns[trailName].status : "Sorry, either the run is not mapped in OpenStreetMaps or not listed on the resort's website.";
+			content.innerHTML = '<p>'+ trailName +'</p><p>'+feature.get('piste:difficulty').substr(0,1).toUpperCase()+ feature.get('piste:difficulty').substr(1)+'</p><p>' + trailStatus;
 			overlay.setPosition(coordinate);
 		}
 	});
